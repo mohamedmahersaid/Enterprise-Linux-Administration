@@ -1,0 +1,609 @@
+{
+  "forestId": "lx-forest-linux",
+  "name": "Linux",
+  "description": "Enterprise Linux administration: storage, boot, performance tuning, and security hardening on RHEL-family systems.",
+  "repository": "Enterprise-Linux-Administration",
+  "treeCount": 13,
+  "branchCount": 27,
+  "expectedLeafCount": 74,
+  "levelCounts": {
+    "Advanced": 41,
+    "Beginner": 8,
+    "Expert": 2,
+    "Intermediate": 23
+  },
+  "leaves": [
+    {
+      "id": "lx-foundations-users-groups",
+      "name": "Local Users, Groups, Password Aging and Account Lifecycle on RHEL",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Accounts and Access",
+      "path": "docs/lx-tree-foundations/lx-branch-accounts-access/lx-foundations-users-groups.md"
+    },
+    {
+      "id": "lx-foundations-permissions-umask",
+      "name": "Linux File Permissions, umask and Special Permission Bits",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Accounts and Access",
+      "path": "docs/lx-tree-foundations/lx-branch-accounts-access/lx-foundations-permissions-umask.md"
+    },
+    {
+      "id": "lx-foundations-acls-capabilities",
+      "name": "Linux File Permissions Beyond Mode Bits: ACLs and File Capabilities",
+      "level": "Intermediate",
+      "tree": "Linux Foundations",
+      "branch": "Accounts and Access",
+      "path": "docs/lx-tree-foundations/lx-branch-accounts-access/lx-foundations-acls-capabilities.md"
+    },
+    {
+      "id": "lx-foundations-sudo-delegation",
+      "name": "Linux Privilege Delegation with sudo, sudoers and Least Privilege",
+      "level": "Intermediate",
+      "tree": "Linux Foundations",
+      "branch": "Accounts and Access",
+      "path": "docs/lx-tree-foundations/lx-branch-accounts-access/lx-foundations-sudo-delegation.md"
+    },
+    {
+      "id": "lx-foundations-rpm-dnf",
+      "name": "RPM, DNF, Repositories and Package Verification",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Software and Processes",
+      "path": "docs/lx-tree-foundations/lx-branch-software-processes/lx-foundations-rpm-dnf.md"
+    },
+    {
+      "id": "lx-foundations-cron-timers",
+      "name": "cron, at and systemd Timers for Scheduled Work",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Software and Processes",
+      "path": "docs/lx-tree-foundations/lx-branch-software-processes/lx-foundations-cron-timers.md"
+    },
+    {
+      "id": "lx-foundations-shell-environment",
+      "name": "Shell Environment, PATH and Environment Variables",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Software and Processes",
+      "path": "docs/lx-tree-foundations/lx-branch-software-processes/lx-foundations-shell-environment.md"
+    },
+    {
+      "id": "lx-processes-signals",
+      "name": "Linux Processes Signals systemd Job Control and Process Troubleshooting",
+      "level": "Beginner",
+      "tree": "Linux Foundations",
+      "branch": "Software and Processes",
+      "path": "docs/lx-tree-foundations/lx-branch-software-processes/lx-processes-signals.md"
+    },
+    {
+      "id": "lx-lvm-extend",
+      "name": "LVM: Online Volume Extension",
+      "level": "Intermediate",
+      "tree": "System Administration",
+      "branch": "Storage Management",
+      "path": "docs/lx-tree-sysadmin/lx-branch-storage/lx-lvm-extend.md"
+    },
+    {
+      "id": "lx-fs-mgmt",
+      "name": "Filesystems: XFS, ext4 and Persistent Mounts",
+      "level": "Intermediate",
+      "tree": "System Administration",
+      "branch": "Storage Management",
+      "path": "docs/lx-tree-sysadmin/lx-branch-storage/lx-fs-mgmt.md"
+    },
+    {
+      "id": "lx-systemd-units",
+      "name": "Systemd Units and Custom Services",
+      "level": "Intermediate",
+      "tree": "System Administration",
+      "branch": "Systemd & Boot",
+      "path": "docs/lx-tree-sysadmin/lx-branch-systemd/lx-systemd-units.md"
+    },
+    {
+      "id": "lx-boot-targets",
+      "name": "Boot Process, Targets and Root Password Recovery",
+      "level": "Intermediate",
+      "tree": "System Administration",
+      "branch": "Systemd & Boot",
+      "path": "docs/lx-tree-sysadmin/lx-branch-systemd/lx-boot-targets.md"
+    },
+    {
+      "id": "lx-tuned-sysctl",
+      "name": "Tuned Profiles and Kernel Tuning with sysctl",
+      "level": "Advanced",
+      "tree": "Performance & Security",
+      "branch": "Performance Tuning",
+      "path": "docs/lx-tree-perfsec/lx-branch-perf/lx-tuned-sysctl.md"
+    },
+    {
+      "id": "lx-perf-analysis",
+      "name": "Performance Analysis: USE Method and Core Tools",
+      "level": "Expert",
+      "tree": "Performance & Security",
+      "branch": "Performance Tuning",
+      "path": "docs/lx-tree-perfsec/lx-branch-perf/lx-perf-analysis.md"
+    },
+    {
+      "id": "lx-selinux",
+      "name": "SELinux: Contexts, Booleans and Troubleshooting",
+      "level": "Advanced",
+      "tree": "Performance & Security",
+      "branch": "SELinux & Firewalld",
+      "path": "docs/lx-tree-perfsec/lx-branch-security/lx-selinux.md"
+    },
+    {
+      "id": "lx-firewalld",
+      "name": "Firewalld: Zones, Services and Rich Rules",
+      "level": "Intermediate",
+      "tree": "Performance & Security",
+      "branch": "SELinux & Firewalld",
+      "path": "docs/lx-tree-perfsec/lx-branch-security/lx-firewalld.md"
+    },
+    {
+      "id": "lx-nm-bonding",
+      "name": "NetworkManager: nmcli, Bonding, Teaming and VLANs",
+      "level": "Advanced",
+      "tree": "Performance, Networking & Automation at Scale",
+      "branch": "Advanced Linux Networking",
+      "path": "docs/lx-tree-netauto/lx-branch-netconfig/lx-nm-bonding.md"
+    },
+    {
+      "id": "lx-net-troubleshoot",
+      "name": "Linux Network Troubleshooting: tcpdump Packet Capture and Diagnostic Bundles",
+      "level": "Advanced",
+      "tree": "Performance, Networking & Automation at Scale",
+      "branch": "Advanced Linux Networking",
+      "path": "docs/lx-tree-netauto/lx-branch-netconfig/lx-net-troubleshoot.md"
+    },
+    {
+      "id": "lx-kickstart-imagebuilder",
+      "name": "Kickstart Automation and Image Builds",
+      "level": "Advanced",
+      "tree": "Performance, Networking & Automation at Scale",
+      "branch": "Fleet Automation & Provisioning",
+      "path": "docs/lx-tree-netauto/lx-branch-fleetauto/lx-kickstart-imagebuilder.md"
+    },
+    {
+      "id": "lx-fleet-patching",
+      "name": "Fleet Patch Automation with dnf and Ansible",
+      "level": "Expert",
+      "tree": "Performance, Networking & Automation at Scale",
+      "branch": "Fleet Automation & Provisioning",
+      "path": "docs/lx-tree-netauto/lx-branch-fleetauto/lx-fleet-patching.md"
+    },
+    {
+      "id": "lx-mdraid",
+      "name": "Software RAID with mdadm",
+      "level": "Intermediate",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Advanced Local Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-advstorage/lx-mdraid.md"
+    },
+    {
+      "id": "lx-multipath",
+      "name": "Multipath, Fibre Channel and NVMe over Fabrics",
+      "level": "Advanced",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Advanced Local Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-advstorage/lx-multipath.md"
+    },
+    {
+      "id": "lx-stratis-vdo",
+      "name": "Stratis, VDO and Modern Storage Efficiency",
+      "level": "Intermediate",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Advanced Local Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-advstorage/lx-stratis-vdo.md"
+    },
+    {
+      "id": "lx-nfs",
+      "name": "NFS Server and Client at Enterprise Scale",
+      "level": "Intermediate",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Network & Shared Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-netstorage/lx-nfs.md"
+    },
+    {
+      "id": "lx-samba",
+      "name": "Samba File Services and Active Directory Integration",
+      "level": "Intermediate",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Network & Shared Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-netstorage/lx-samba.md"
+    },
+    {
+      "id": "lx-iscsi",
+      "name": "iSCSI Target and Initiator Configuration",
+      "level": "Intermediate",
+      "tree": "Storage & Filesystems in Depth",
+      "branch": "Network & Shared Storage",
+      "path": "docs/lx-tree-storage-adv/lx-branch-netstorage/lx-iscsi.md"
+    },
+    {
+      "id": "lx-sssd-idm",
+      "name": "SSSD, Red Hat IdM and Active Directory Enrolment",
+      "level": "Advanced",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Identity & Authentication",
+      "path": "docs/lx-tree-idcomp/lx-branch-identity/lx-sssd-idm.md"
+    },
+    {
+      "id": "lx-pam-sudo",
+      "name": "PAM Stack Design and sudo Policy",
+      "level": "Advanced",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Identity & Authentication",
+      "path": "docs/lx-tree-idcomp/lx-branch-identity/lx-pam-sudo.md"
+    },
+    {
+      "id": "lx-ssh-hardening",
+      "name": "SSH Hardening and Certificate Authentication",
+      "level": "Intermediate",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Identity & Authentication",
+      "path": "docs/lx-tree-idcomp/lx-branch-identity/lx-ssh-hardening.md"
+    },
+    {
+      "id": "lx-openscap",
+      "name": "OpenSCAP, CIS Benchmarks and STIG Remediation",
+      "level": "Intermediate",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Compliance & Auditing",
+      "path": "docs/lx-tree-idcomp/lx-branch-compliance/lx-openscap.md"
+    },
+    {
+      "id": "lx-auditd",
+      "name": "auditd Rules and Forensic Trails",
+      "level": "Advanced",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Compliance & Auditing",
+      "path": "docs/lx-tree-idcomp/lx-branch-compliance/lx-auditd.md"
+    },
+    {
+      "id": "lx-fips-crypto",
+      "name": "FIPS Mode and System-Wide Crypto Policies",
+      "level": "Advanced",
+      "tree": "Identity, Access & Compliance",
+      "branch": "Compliance & Auditing",
+      "path": "docs/lx-tree-idcomp/lx-branch-compliance/lx-fips-crypto.md"
+    },
+    {
+      "id": "lx-nftables",
+      "name": "nftables and firewalld Rule Design",
+      "level": "Advanced",
+      "tree": "Networking & Core Services",
+      "branch": "Network Stack & Filtering",
+      "path": "docs/lx-tree-netsvc/lx-branch-netstack/lx-nftables.md"
+    },
+    {
+      "id": "lx-bonding-vlan",
+      "name": "Bonding, Teaming, VLANs and Bridges",
+      "level": "Intermediate",
+      "tree": "Networking & Core Services",
+      "branch": "Network Stack & Filtering",
+      "path": "docs/lx-tree-netsvc/lx-branch-netstack/lx-bonding-vlan.md"
+    },
+    {
+      "id": "lx-dns-bind",
+      "name": "DNS Server Design with BIND: Split-Horizon Zones and DNSSEC",
+      "level": "Advanced",
+      "tree": "Networking & Core Services",
+      "branch": "Network Stack & Filtering",
+      "path": "docs/lx-tree-netsvc/lx-branch-netstack/lx-dns-bind.md"
+    },
+    {
+      "id": "lx-bridges-netns",
+      "name": "Linux Bridges veth Pairs and Network Namespace Virtual Networking",
+      "level": "Advanced",
+      "tree": "Networking & Core Services",
+      "branch": "Network Stack & Filtering",
+      "path": "docs/lx-tree-netsvc/lx-branch-netstack/lx-bridges-netns.md"
+    },
+    {
+      "id": "lx-haproxy-keepalived",
+      "name": "HAProxy and Keepalived High Availability",
+      "level": "Advanced",
+      "tree": "Networking & Core Services",
+      "branch": "Service Availability & Time",
+      "path": "docs/lx-tree-netsvc/lx-branch-svcavail/lx-haproxy-keepalived.md"
+    },
+    {
+      "id": "lx-chrony-ptp",
+      "name": "Time Synchronisation with chrony and PTP",
+      "level": "Intermediate",
+      "tree": "Networking & Core Services",
+      "branch": "Service Availability & Time",
+      "path": "docs/lx-tree-netsvc/lx-branch-svcavail/lx-chrony-ptp.md"
+    },
+    {
+      "id": "lx-pacemaker",
+      "name": "Pacemaker Clustering, Fencing and Quorum",
+      "level": "Advanced",
+      "tree": "Networking & Core Services",
+      "branch": "Service Availability & Time",
+      "path": "docs/lx-tree-netsvc/lx-branch-svcavail/lx-pacemaker.md"
+    },
+    {
+      "id": "lx-cgroups-v2",
+      "name": "cgroups v2 Resource Control and systemd Slices",
+      "level": "Advanced",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Resource Control & Memory",
+      "path": "docs/lx-tree-kernelperf/lx-branch-resource/lx-cgroups-v2.md"
+    },
+    {
+      "id": "lx-oom-memory",
+      "name": "Linux Memory Analysis: Swap, Page Cache and the OOM Killer",
+      "level": "Advanced",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Resource Control & Memory",
+      "path": "docs/lx-tree-kernelperf/lx-branch-resource/lx-oom-memory.md"
+    },
+    {
+      "id": "lx-numa-tuning",
+      "name": "NUMA Topology, IRQ Affinity and Kernel Tuning",
+      "level": "Advanced",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Resource Control & Memory",
+      "path": "docs/lx-tree-kernelperf/lx-branch-resource/lx-numa-tuning.md"
+    },
+    {
+      "id": "lx-ebpf-bpftrace",
+      "name": "eBPF and bpftrace Production Tracing",
+      "level": "Advanced",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Tracing & Boot Analysis",
+      "path": "docs/lx-tree-kernelperf/lx-branch-observe/lx-ebpf-bpftrace.md"
+    },
+    {
+      "id": "lx-boot-analysis",
+      "name": "Boot Performance Analysis with systemd-analyze",
+      "level": "Intermediate",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Tracing & Boot Analysis",
+      "path": "docs/lx-tree-kernelperf/lx-branch-observe/lx-boot-analysis.md"
+    },
+    {
+      "id": "lx-io-tuning",
+      "name": "Block IO Schedulers, Queue Depth and Storage Latency",
+      "level": "Advanced",
+      "tree": "Kernel, Performance & Observability",
+      "branch": "Tracing & Boot Analysis",
+      "path": "docs/lx-tree-kernelperf/lx-branch-observe/lx-io-tuning.md"
+    },
+    {
+      "id": "lx-podman-rootless",
+      "name": "Podman Rootless Containers and systemd Integration",
+      "level": "Advanced",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "Rootless Containers & Image Supply Chain",
+      "path": "docs/lx-tree-containervirt/lx-branch-podman/lx-podman-rootless.md"
+    },
+    {
+      "id": "lx-buildah-skopeo",
+      "name": "Image Building with Buildah and Registry Operations with Skopeo",
+      "level": "Intermediate",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "Rootless Containers & Image Supply Chain",
+      "path": "docs/lx-tree-containervirt/lx-branch-podman/lx-buildah-skopeo.md"
+    },
+    {
+      "id": "lx-container-storage",
+      "name": "Container Storage Drivers, Layers and SELinux Labelling",
+      "level": "Advanced",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "Rootless Containers & Image Supply Chain",
+      "path": "docs/lx-tree-containervirt/lx-branch-podman/lx-container-storage.md"
+    },
+    {
+      "id": "lx-kvm-libvirt",
+      "name": "KVM and libvirt Performance Tuning",
+      "level": "Advanced",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "KVM Virtualization",
+      "path": "docs/lx-tree-containervirt/lx-branch-kvm/lx-kvm-libvirt.md"
+    },
+    {
+      "id": "lx-image-builder",
+      "name": "Golden Images with Image Builder and Kickstart",
+      "level": "Intermediate",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "KVM Virtualization",
+      "path": "docs/lx-tree-containervirt/lx-branch-kvm/lx-image-builder.md"
+    },
+    {
+      "id": "lx-vm-migration",
+      "name": "VM Conversion and Migration with virt-v2v",
+      "level": "Advanced",
+      "tree": "Containers & Virtualization on Linux",
+      "branch": "KVM Virtualization",
+      "path": "docs/lx-tree-containervirt/lx-branch-kvm/lx-vm-migration.md"
+    },
+    {
+      "id": "lx-satellite",
+      "name": "Red Hat Satellite: Content Views and Lifecycle Environments",
+      "level": "Advanced",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Content, Patching & Lifecycle",
+      "path": "docs/lx-tree-fleetops/lx-branch-patching/lx-satellite.md"
+    },
+    {
+      "id": "lx-dnf-modules",
+      "name": "DNF and YUM Package Management: Modules, Repository Priority and Version Locking",
+      "level": "Intermediate",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Content, Patching & Lifecycle",
+      "path": "docs/lx-tree-fleetops/lx-branch-patching/lx-dnf-modules.md"
+    },
+    {
+      "id": "lx-kpatch-reboot",
+      "name": "Live Kernel Patching and Reboot Orchestration",
+      "level": "Advanced",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Content, Patching & Lifecycle",
+      "path": "docs/lx-tree-fleetops/lx-branch-patching/lx-kpatch-reboot.md"
+    },
+    {
+      "id": "lx-journald-rsyslog",
+      "name": "journald, rsyslog and Central Log Aggregation",
+      "level": "Intermediate",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Logging & Fleet Management",
+      "path": "docs/lx-tree-fleetops/lx-branch-obslog/lx-journald-rsyslog.md"
+    },
+    {
+      "id": "lx-cockpit",
+      "name": "Cockpit and Ansible Web-Based Linux Fleet Administration",
+      "level": "Beginner",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Logging & Fleet Management",
+      "path": "docs/lx-tree-fleetops/lx-branch-obslog/lx-cockpit.md"
+    },
+    {
+      "id": "lx-ansible-baselines",
+      "name": "Ansible Configuration Baselines and Drift Remediation",
+      "level": "Advanced",
+      "tree": "Enterprise Operations at Fleet Scale",
+      "branch": "Logging & Fleet Management",
+      "path": "docs/lx-tree-fleetops/lx-branch-obslog/lx-ansible-baselines.md"
+    },
+    {
+      "id": "lx-man-pages-docs",
+      "name": "Linux Man Pages Bash Help and systemd Documentation for Self-Service Troubleshooting",
+      "level": "Beginner",
+      "tree": "Working Without Help: Documentation, Rescue and Diagnosis",
+      "branch": "Self-Service Documentation, Boot Recovery and Descriptor Diagnostics",
+      "path": "docs/lx-tree-self-reliance/lx-branch-selfservice-recovery/lx-man-pages-docs.md"
+    },
+    {
+      "id": "lx-rescue-boot-recovery",
+      "name": "Linux Rescue Mode Emergency Boot Recovery and initramfs Repair",
+      "level": "Advanced",
+      "tree": "Working Without Help: Documentation, Rescue and Diagnosis",
+      "branch": "Self-Service Documentation, Boot Recovery and Descriptor Diagnostics",
+      "path": "docs/lx-tree-self-reliance/lx-branch-selfservice-recovery/lx-rescue-boot-recovery.md"
+    },
+    {
+      "id": "lx-lsof-file-descriptors",
+      "name": "Linux lsof Open File Descriptors ulimit and systemd Resource Limit Troubleshooting",
+      "level": "Advanced",
+      "tree": "Working Without Help: Documentation, Rescue and Diagnosis",
+      "branch": "Self-Service Documentation, Boot Recovery and Descriptor Diagnostics",
+      "path": "docs/lx-tree-self-reliance/lx-branch-selfservice-recovery/lx-lsof-file-descriptors.md"
+    },
+    {
+      "id": "lx-apparmor-mac",
+      "name": "AppArmor Profiles SELinux Comparison and Mandatory Access Control Hardening on Linux",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Mandatory Access Control and File Integrity",
+      "path": "docs/lx-tree-estate-operations/lx-branch-mac-integrity/lx-apparmor-mac.md"
+    },
+    {
+      "id": "lx-aide-fim",
+      "name": "AIDE File Integrity Monitoring and Baseline Verification on Linux",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Mandatory Access Control and File Integrity",
+      "path": "docs/lx-tree-estate-operations/lx-branch-mac-integrity/lx-aide-fim.md"
+    },
+    {
+      "id": "lx-lxc-containers",
+      "name": "LXC System Containers and Linux Container Isolation Without Docker",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Hosting Workloads on Linux",
+      "path": "docs/lx-tree-estate-operations/lx-branch-hosting-workloads/lx-lxc-containers.md"
+    },
+    {
+      "id": "lx-web-servers",
+      "name": "nginx and Apache Web Server Configuration and Reverse Proxy on Linux",
+      "level": "Intermediate",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Hosting Workloads on Linux",
+      "path": "docs/lx-tree-estate-operations/lx-branch-hosting-workloads/lx-web-servers.md"
+    },
+    {
+      "id": "lx-postfix-relay",
+      "name": "Postfix SMTP Relay systemd Service and Linux Mail Delivery Troubleshooting",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Hosting Workloads on Linux",
+      "path": "docs/lx-tree-estate-operations/lx-branch-hosting-workloads/lx-postfix-relay.md"
+    },
+    {
+      "id": "lx-core-dumps",
+      "name": "Linux Core Dumps systemd coredumpctl and Application Crash Troubleshooting",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Crash Analysis and Diagnostic Method",
+      "path": "docs/lx-tree-estate-operations/lx-branch-diagnosis/lx-core-dumps.md"
+    },
+    {
+      "id": "lx-diagnostic-method",
+      "name": "Systematic Linux Diagnostic Methodology and Performance Troubleshooting Order",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Crash Analysis and Diagnostic Method",
+      "path": "docs/lx-tree-estate-operations/lx-branch-diagnosis/lx-diagnostic-method.md"
+    },
+    {
+      "id": "lx-patch-repos",
+      "name": "Linux Patch Management yum dnf apt Repository and Errata Strategy",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Patching, Lifecycle and Commercial Models",
+      "path": "docs/lx-tree-estate-operations/lx-branch-lifecycle-commercial/lx-patch-repos.md"
+    },
+    {
+      "id": "lx-os-lifecycle",
+      "name": "Linux OS Lifecycle End-of-Life Planning and Major Version Upgrade Paths",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Patching, Lifecycle and Commercial Models",
+      "path": "docs/lx-tree-estate-operations/lx-branch-lifecycle-commercial/lx-os-lifecycle.md"
+    },
+    {
+      "id": "lx-linux-licensing",
+      "name": "RHEL Ubuntu Pro and SLES Subscription Licensing and Enterprise Support Models",
+      "level": "Advanced",
+      "tree": "Linux Estate Operations: Primitives, Diagnosis and Lifecycle",
+      "branch": "Patching, Lifecycle and Commercial Models",
+      "path": "docs/lx-tree-estate-operations/lx-branch-lifecycle-commercial/lx-linux-licensing.md"
+    },
+    {
+      "id": "lx-bash-admin",
+      "name": "Bash Scripting for Linux System Administration Error Handling and Safety",
+      "level": "Intermediate",
+      "tree": "Script Safety, Fleet Drift, Snapshots and Resource Accounting",
+      "branch": "Script Safety and Fleet Drift",
+      "path": "docs/lx-tree-fleet-discipline/lx-branch-script-fleet/lx-bash-admin.md"
+    },
+    {
+      "id": "lx-fleet-management",
+      "name": "Linux Fleet Management at Scale with Ansible and systemd Configuration Drift",
+      "level": "Advanced",
+      "tree": "Script Safety, Fleet Drift, Snapshots and Resource Accounting",
+      "branch": "Script Safety and Fleet Drift",
+      "path": "docs/lx-tree-fleet-discipline/lx-branch-script-fleet/lx-fleet-management.md"
+    },
+    {
+      "id": "lx-backup-strategy",
+      "name": "Linux Backup Strategy Filesystem Snapshots and Restore Verification",
+      "level": "Advanced",
+      "tree": "Script Safety, Fleet Drift, Snapshots and Resource Accounting",
+      "branch": "Snapshots and Resource Accounting",
+      "path": "docs/lx-tree-fleet-discipline/lx-branch-snapshots-capacity/lx-backup-strategy.md"
+    },
+    {
+      "id": "lx-capacity-planning",
+      "name": "Linux Fleet Capacity Planning Rightsizing and systemd Resource Accounting",
+      "level": "Advanced",
+      "tree": "Script Safety, Fleet Drift, Snapshots and Resource Accounting",
+      "branch": "Snapshots and Resource Accounting",
+      "path": "docs/lx-tree-fleet-discipline/lx-branch-snapshots-capacity/lx-capacity-planning.md"
+    }
+  ]
+}
